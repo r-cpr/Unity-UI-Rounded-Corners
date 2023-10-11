@@ -9,6 +9,8 @@ namespace Nobi.UiRoundedCorners {
 		private static readonly int Props = Shader.PropertyToID("_WidthHeightRadius");
 
         public float radius = 40f;          
+
+		[SerializeField]
         private Material material;
 
 		[HideInInspector, SerializeField] private MaskableGraphic image;
